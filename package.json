@@ -1,7 +1,8 @@
 {
   "scripts": {
     "types": "wrangler types --path='./functions/types.d.ts'",
-    "dev": "wrangler pages dev public"
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20251120.0",
